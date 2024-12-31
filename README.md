@@ -1,5 +1,3 @@
-# sayanwala4.github.io
-New website!!!
-Version 2, rough around the edges 
+#Personal Website
 
-update, Fixing some issues with the formating 
+Currently under development
