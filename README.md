@@ -1,6 +1,5 @@
 # sayanwala4.github.io
 New website!!!
-Version 1, rough around the edges 
+Version 2, rough around the edges 
 
-update, got a free domain so my websites:
-jjawanda.me now
+update, Fixing some issues with the formating 

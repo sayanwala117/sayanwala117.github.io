@@ -4,103 +4,119 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="images/Logo.png" rel="icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <nav>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo"><a href="https://www.jjawanda.me/test.github.io/">JJawanda</a></div>
+        <nav class="nav" id="nav-menu">
             <ul>
                 <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="mailto:jawa3252@mylaurier.ca">Email</a></li>
             </ul>
         </nav>
-        <!-- Logo centered between navigation and name -->
+        <div class="hamburger" id="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </header>
+
+    <!-- Landing Section -->
+    <section id="landing" class="landing">
+        <h1>Hello! Meet, Jaspreet Jawanda</h1>
         <div class="logo-container">
             <a href="https://www.linkedin.com/in/jaspreet-jawanda-559119308/?originalSubdomain=ca" class="logo-link">
                 <img src="images/Logo.png" alt="Logo" class="circular-logo">
             </a>
         </div>
-    </header>
+        <p>Computer Science | Business Administration</p>
+        <a href="#about" class="scroll-btn">Learn More</a>
+    </section>
 
-    <!-- Main Section -->
-    <section class="hero">
-        <div class="container">
-            <h1 class="main-title">Jaspreet Jawanda</h1>
-            <p class="tagline">Computer Science | Business | Tech Enthusiast</p>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>
+                I am a first-year double-degree student pursuing Computer Science and Business at Wilfrid Laurier University in Ontario, Canada. With a strong foundation in full-stack web development, I specialize in backend database programming and building scalable, reliable applications that address real-world business challenges.
+
+                I have over five years of experience in programming and hardware, consistently honing my skills to deliver innovative solutions. My passion for technology drives me to explore new tools and techniques, enabling me to create efficient systems that merge technical performance with business objectives.
+                
+                Currently, I am focused on advancing my expertise in software development and contributing to projects that require both technical precision and strategic thinking.
+            </p>
+        </div>
+        <div class="about-img">
+            <img src="images\jjawanda.png" alt="Headshot">
         </div>
     </section>
 
-</section>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <p> 
 
-<!-- About Section -->
-<section id="about" class="fade-in">
-    <div class="container">
-        <h2>About Me</h2>
-        <p>I am from Brampton, Ontario, and currently a first-year student at Wilfrid Laurier University,</p> 
-        <p>pursuing an Honours Double Degree in BBA and BSc with Co-op. From a young age, I’ve been passionate about computers and software.</p>
-        <p>In my spare time, I enjoy tinkering with hardware and creating programs in various programming languages,</p> 
-        <p>always eager to learn something new. Languages I currently work with:</p>
-            <p>Java</p>
-            <p>JavaScript</p>
-            <p>Python</p>
-            <p>C</p>
-            <p>C++</p>
-            <p>HTML & CSS</p>
-        </ul>
-    </div>
-</section>
-
-
-   <!-- Portfolio Section -->
-<section id="portfolio" class="fade-in">
-    <div class="container">
-        <h2>Portfolio</h2>
-        <p>Below are links to my GitHub, LinkedIn, and resume.</p>
+            Here are some of the projects I have worked on. Click on the project name to view the source code on GitHub.
         
-        <div class="logo-row">
-            <!-- GitHub -->
-            <a href="https://github.com/SAYANWALA4" target="_blank">
-                <img src="images/github-logo.png" alt="GitHub" class="logo">
-            </a>
-            <!-- LinkedIn -->
-            <a href="https://www.linkedin.com/in/jaspreet-jawanda-559119308/?originalSubdomain=ca" target="_blank">
-                <img src="images/linkedin-logo.png" alt="LinkedIn" class="logo">
-            </a>
-            <!-- Resume -->
-            <a href="files/Resume.pdf" target="_blank">
-                <img src="images/resume-logo.png" alt="Resume" class="logo">
-            </a>
-        </div>
-    </div>
-</section>
-
-<!-- Contact Section -->
-<section id="contact" class="fade-in">
-    <div class="container">
-        <h2>Contact Me</h2>
-        
-        <div class="contact-info">
-            <!-- Email -->
-            <div class="contact-item">
-                <img src="images/email-logo.png" alt="Email Icon" class="contact-logo">
-                <p>Email: <a href="mailto:jawa3252@mylaurier.ca">jawa3252@mylaurier.ca</a></p>
+        </p>
+        <div class="project-list">
+            <div class="project">
+                <h3><a href="https://github.com/SAYANWALA4/SStarty">SStarty</a></h3>
+                <p>Steam big picture mode customizer. Program changes the startup movie for steam</p>
             </div>
-
-            <!-- Phone -->
-            <div class="contact-item">
-                <img src="images/phone-logo.png" alt="Phone Icon" class="contact-logo">
-                <p>Phone: <a href="tel:+16478012936">+1 (647) 801 2936</a></p>
+            <div class="project">
+                <h3><a href="https://github.com/SAYANWALA4/USecDrive">USecDrive</a></h3>
+                <p>Secure your google/one/any drive (cloud storage) by adding an additional layer of encryption </p>
+            </div>
+            <div class="project">
+                <h3><a href="https://github.com/SAYANWALA4/Color-to-Grayscale">Color-to-Grayscale</a></h3>
+                <p>Converts images from color to black and white using vector image projection, where it finds the average of the three RGB values.</p>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+
+    <!-- Social Links -->
+    <section id="contact" class="fade-in">
+        <div class="container">
+            <h2>Connect with Me</h2>
+            <div class="logo-row">
+                <!-- GitHub -->
+                <a href="https://github.com/SAYANWALA4" target="_blank">
+                    <img src="images/github-logo.png" alt="GitHub" class="logo">
+                </a>
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/jaspreet-jawanda-559119308/?originalSubdomain=ca" target="_blank">
+                    <img src="images/linkedin-logo.png" alt="LinkedIn" class="logo">
+                </a>
+                <!-- Resume -->
+                <a href="files/Resume.pdf" target="_blank">
+                    <img src="images/resume-logo.png" alt="Resume" class="logo">
+                </a>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer>
         <p>&copy; 2024 Jaspreet Jawanda. All rights reserved.</p>
     </footer>
+
+    <!-- JavaScript for Menu Toggle -->
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
