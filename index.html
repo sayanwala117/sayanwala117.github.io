@@ -131,5 +131,17 @@
             navMenu.classList.toggle('active');
         });
     </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const scrollButton = document.querySelector(".scroll-btn");
+
+            scrollButton.addEventListener("click", function (event) {
+                event.preventDefault(); // Prevent default anchor behavior
+                document.querySelector("#about").scrollIntoView({
+                    behavior: "smooth"
+                });
+            });
+        });
+    </script>
 </body>
 </html>
