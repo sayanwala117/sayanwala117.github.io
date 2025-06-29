@@ -1,5 +1,4 @@
-# Personal Website
+experimental website
 
-Currently under development
 
-current revision: V. 17
+jk
