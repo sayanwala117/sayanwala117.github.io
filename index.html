@@ -6,12 +6,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Jaspreet Jawanda</title>
         <link href="images/Logo.png.jpg" rel="icon">
+        <!-- Google Fonts: Inter for modern typography -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
         <!-- Stylesheet -->
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="projects.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
         <!-- JavaScript -->
-        <script defer src="script.js"></script>
+        <script src="script.js"></script>
 
       </head>
 
@@ -32,14 +36,13 @@
                                 class="logo_new"></a>
             </div>
 
-            <!-- ── Center nav (unchanged links) -->
+            <!-- ── Center nav (links without resume) -->
             <nav class="nav" id="nav-menu">
                 <ul class="center-links">
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="Resume.pdf"  class="resume-header-button">Resume</a></li>
                 </ul>
             </nav>
 
@@ -67,7 +70,7 @@
 
 
             <!--  Experience Section  -->
-            <section id="experience" class="experience">
+            <section id="experience" class="experience scroll-reveal">
                 <h1>Experience / Education</h1>
                 <!-- Tabs --> 
                 <div class="timeline-tabs">
@@ -84,9 +87,9 @@
                         <img src="images/Logo.png.jpg" alt="Agilite">
                     </span>
                     <div class="details">
-                        <h4>Dec 2017 – Jun 2021</h4>
-                        <h3>Self Employed</h3>
-                        <p>Full-stack Web Developer</p>
+                        <h4>Dec 2017 – Jun 2021</h4>
+                        <h3>Self Employed</h3>
+                        <p>Full-stack Web Developer</p>
                     </div>
                     </li>
             
@@ -95,9 +98,9 @@
                         <img src="images/ss.png" alt="Maxim">
                     </span>
                     <div class="details">
-                        <h4>Oct 2020 – Jul 2022</h4>
+                        <h4>Oct 2020 – Jul 2022</h4>
                         <h3>SSmaintenance</h3>
-                        <p>Technology Expert</p>
+                        <p>Technology Expert</p>
                     </div>
                     </li>
 
@@ -106,13 +109,11 @@
                             <img src="images/rbl.jpg" alt="Maxim">
                         </span>
                         <div class="details">
-                            <h4>Jun 2023 – Sep 2025</h4>
+                            <h4>Jun 2023 – Sep 2025</h4>
                             <h3>Ringball Corporation</h3>
                             <p>Warehouse Worker (Summer Job)</p>
                         </div>
                     </li>
-            
-                    <!-- keep adding jobs the same way -->
                 </ul>
             
                 <!-- ─── Education list (hidden by default) ─── -->
@@ -122,7 +123,7 @@
                             <img src="images/hb.svg" alt="PCE">
                         </span>
                         <div class="details">
-                            <h4>Sep 2022 – June 2024</h4>
+                            <h4>Sep 2022 – June 2024</h4>
                             <h3>Harold M. Brathwaite Secondary School</h3>
                             <p>High School Diploma</p>
                         </div>
@@ -133,7 +134,7 @@
                         <img src="images/wlu.png" alt="LJMU">
                     </span>
                     <div class="details">
-                        <h4>Sep 2024 – Present</h4>
+                        <h4>Sep 2024 – Present</h4>
                         <h3>Wilfrid Laurier University</h3>
                         <p>BBA, Business Administration</p>
                     </div>
@@ -144,9 +145,9 @@
                         <img src="images/wlu.png" alt="PCE">
                     </span>
                     <div class="details">
-                        <h4>Sep 2024 – Present</h4>
+                        <h4>Sep 2024 – Present</h4>
                         <h3>Wilfrid Laurier University</h3>
-                        <p>BSc, Computer Science</p>
+                        <p>BSc, Computer Science</p>
                     </div>
                     </li>
                 </ul>
@@ -157,19 +158,18 @@
 
             <!--  Projects  -->
             <section id="projects" class="projects">
-                <h2 class="section‑title scroll-reveal">
-                <h2 class="section-title section-number scroll-reveal">Projects</h2>
+                <!-- Corrected Project Headline -->
+                <h1>Projects</h1>
                 <br>
-                </h2>
             
-                <!-- ─── Project #1 ─── -->
+                <!-- ─── Project #1 ─── -->
                 <article class="project featured scroll-reveal">
                 <div class="project-image">
                     <img src="images/jumpsort.png" alt="JumpSort screenshot">
                 </div>
             
                 <div class="project-content">
-                    <p class="project-label">Featured Project</p>
+                    <p class="project-label">Featured Project</p>
                     <h3 class="project-title">JumpSort</h3>
             
                     <p class="project-desc">
@@ -188,14 +188,14 @@
                 </div>
                 </article>
             
-                <!-- ─── Project #2 (image right) ─── -->
+                <!-- ─── Project #2 (image right) ─── -->
                 <article class="project featured reverse scroll-reveal">
                 <div class="project-image">
                     <img src="images/usecdrive.png" alt="usec screenshot">
                 </div>
             
                 <div class="project-content">
-                    <p class="project-label">Featured Project</p>
+                    <p class="project-label">Featured Project</p>
                     <h3 class="project-title">USecDrive</h3>
             
                     <p class="project-desc">
@@ -213,14 +213,14 @@
                 </div>
                 </article>
 
-                                <!-- ─── Project #3 ─── -->
+                                <!-- ─── Project #3 ─── -->
                 <article class="project featured scroll-reveal">
                 <div class="project-image">
                     <img src="images/ot.png" alt="overlay screenshot">
                 </div>
             
                 <div class="project-content">
-                    <p class="project-label">Featured Project</p>
+                    <p class="project-label">Featured Project</p>
                     <h3 class="project-title">Overylay-Timer</h3>
             
                     <p class="project-desc">
@@ -240,7 +240,7 @@
                 </article>
                 
 
-                <div class="resume-content">
+                <div class="resume-content scroll-reveal">
                         <a href="https://github.com/sayanwala117" class="resume-button">VIEW PROJECTS</a>
                 </div>
                 
@@ -250,8 +250,8 @@
 
                     <!-- About Section -->
             <section id="about" class="about">
-                <h1 class="section-title-section">About Me</h1>
-                <div class="about-content">
+                <h1 class="section-title-section scroll-reveal">About Me</h1>
+                <div class="about-content scroll-reveal">
                     <p>
                         I'm Jaspreet Jawanda — a passionate software developer and Computer Science & Business student at Wilfrid Laurier University, based in Ontario. I thrive on turning complex problems into clean, efficient solutions and love exploring new ways to push the boundaries of what's possible with code.
                     </p>
@@ -268,7 +268,7 @@
                         Whether you’re building a product, solving a challenge, or just want to talk shop (or cars — the 1969 Mustang GT is the dream), I’m always open to connecting. Let’s build something extraordinary together.
                     </p>                    
                 </div>
-                <div class="about-image">
+                <div class="about-image scroll-reveal">
                     <img src="images/about.jpg" alt="About Me">
                 </div>
             </section>
@@ -278,15 +278,14 @@
             <!-- Social Links -->
             <section id="contact" class="fade-in">
                 <div class="container">
-                    <h2>Connect with Me</h2>
-                    <div class="projectabout-content">
-                        <h3>
+                    <h2 class="scroll-reveal">Connect with Me</h2>
+                        <h3 class="scroll-reveal">
                             I'm constantly exploring ways to innovate and
                             expand my knowledge in the tech world.
                             Don't hesitate to get in touch with me!
                         </h3>
-                    </div>
-                    <div class="logo-row">
+
+                    <div class="logo-row scroll-reveal">
                         <!-- GitHub -->
                         <a href="https://github.com/sayanwala117" target="_blank">
                             <img src="images/github-logo.png" alt="GitHub" class="logo-con">
@@ -300,7 +299,7 @@
                             <img src="images/email-logo.png" alt="Mail" class="logo-con">
                         </a>
                     </div>
-                    <div class="resume-content">
+                    <div class="resume-content scroll-reveal">
                         <a href="Resume.pdf" class="resume-button">VIEW RESUME</a>
                     </div>
             </section>
