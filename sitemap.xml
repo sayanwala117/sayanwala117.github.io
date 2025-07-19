@@ -9,13 +9,53 @@
 
 <url>
   <loc>https://www.jjawanda.me/</loc>
-  <lastmod>2025-02-10T19:56:59+00:00</lastmod>
+  <lastmod>2025-07-19T23:34:27+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.jjawanda.me/files/Resume.pdf</loc>
-  <lastmod>2025-02-10T19:56:59+00:00</lastmod>
+  <loc>https://www.jjawanda.me/assets/Resume/Resume.pdf</loc>
+  <lastmod>2025-07-19T23:34:27+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jjawanda.me/JumpSort/</loc>
+  <lastmod>2025-05-03T17:26:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jjawanda.me/legacy-portfolios/</loc>
+  <lastmod>2025-07-19T23:44:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.jjawanda.me/legacy-portfolios/New_Site-main/index.html</loc>
+  <lastmod>2025-07-19T23:44:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jjawanda.me/legacy-portfolios/sayanwala117.github.io-main/index.html</loc>
+  <lastmod>2025-07-19T23:44:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jjawanda.me/legacy-portfolios/test.github.io-main/index.html</loc>
+  <lastmod>2025-07-19T23:44:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.jjawanda.me/legacy-portfolios/New_Site-main/Resume.pdf</loc>
+  <lastmod>2025-07-19T23:44:09+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.jjawanda.me/legacy-portfolios/sayanwala117.github.io-main/assets/documents/Resume.pdf</loc>
+  <lastmod>2025-07-19T23:44:09+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.jjawanda.me/legacy-portfolios/test.github.io-main/files/Resume.pdf</loc>
+  <lastmod>2025-07-19T23:44:09+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 
 
